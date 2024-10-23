@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: #0a040e;
+}
+
+.navbar {
+  width: 100px;
+  height: 40px;
+  margin-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.navbar h1 {
+  color: blue;
+}
+
+.title_screen {
+  width: 1250px;
+  height: 500px;
+  background: #00021b;
+  margin-left: 60px;
+  margin-top: 30px;
+  border-radius: 50px;
+  border-top: 0.5px solid rgb(255, 0, 255);
+  border-left: 0.5px solid rgb(255, 0, 255);
+}
+
+.title_screen h1 {
+  color: blue;
+  font-size: 50px;
+  margin-left: 200px;
+  padding-top: 130px;
+}
+.search {
+  width: 900px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+.srch {
+  width: 700px;
+  height: 40px;
+  background: #fff;
+  color: #00021b;
+  font-size: 15px;
+  justify-content: center;
+  border-radius: 15px;
+  border: 1px solid blue;
+  padding: 15px;
+}
+
+.btn {
+  width: 200px;
+  height: 40px;
+  margin-top: 25px;
+  border-radius: 15px;
+  margin-left: 250px;
+  font-weight: bold;
+}
+
+.interface {
+  width: 490px;
+  height: 385px;
+  margin-top: 268px;
+  background: transparent;
+  position: absolute;
+  top: -20px;
+  left: 820px;
+  border-radius: 10px;
+}
+
+.interface h2 {
+  color: blue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  /* margin-left: 180px; */
+  display: flex;
+  justify-content: center;
+}
+
+.chat {
+  width: 440px;
+  height: 280px;
+  background: url(dwnld.jpg);
+  background-size: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: none;
+  border-top: none;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+
+.download_interface {
+  width: 450px;
+  height: 35px;
+  border-radius: 8px;
+  background: #000;
+  color: crimson;
+  margin-left: 1px;
+  padding-left: 30px;
+  border: 0.5px solid blue;
+}
+
+.copyright {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.copyright p {
+  position: relative;
+  justify-content: center;
+  margin-top: 25px;
+  color: blue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 12;
+}
