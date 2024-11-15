@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(dark-orange-background-bfh01baqi7v70x6c.jpg);
+    background-size: cover;
+}
+
+.title{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    /* background-color: aqua; */
+}
+
+.title h1{
+    background: none;
+}
+
+.content{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.card{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    /* background-color: azure; */
+}
+
+.card p{
+    font-size: 30px;
+    background: none;
+    color: #FFD700;
+}
+
+.card a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background: none;
+}
+
+h2{
+    background: none;
+    color: #FFD700;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+ion-icon{
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFD700;
+    font-size: 35px;
+    margin: 10px;
+}
+
+.search{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.search input{
+    width: 500px;
+    height: 40px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: solid 1px #FFD700;
+    background: none;
+    padding: 5px;
+    color: #FFD700;
+}
+
+.search a{
+    height: 40px;
+    width: 100px;
+    background: none;
+}
+
+.search button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background: #353935;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.main{
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+    background: none;
+    /* background: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie{
+    width: 150px;
+    height: 200px;
+    background: none;
+    /* border: solid 3px #FFD700; */
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.movie img{
+    width: 100%;
+    height: auto;
+}
